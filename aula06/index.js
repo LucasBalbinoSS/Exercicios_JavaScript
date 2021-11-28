@@ -9,6 +9,9 @@ const altura = 1.80;
 let imc;
 imc = peso / (altura ** 2);
 
+let anoNascimento;
+anoNascimento = 2021 - idade;
+
 // Saída
-console.log(`${nome} ${sobrenome} tem ${idade} anos de idade e pesa ${peso}Kg`);
+console.log(`${nome} ${sobrenome} tem ${idade} anos de idade\nNasceu no ano de ${anoNascimento} e pesa ${peso}Kg`);
 console.log(`O IMC de ${nome} ${sobrenome} é ${imc}`);
